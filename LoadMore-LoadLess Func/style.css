@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 10px;
+  flex-flow: wrap;
+  align-items: center;
+}
+.box {
+  background: red;
+  height: 100px;
+  width: calc(25% - 8px);
+}
+
+.btnDiv{
+display: flex; align-items: center; justify-self: center;width: 100%;
+}
+#btn {margin-top: 50px;
+}
+
+.hidden{
+  display: none;
+}

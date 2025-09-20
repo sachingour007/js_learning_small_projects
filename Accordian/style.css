@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+}
+.container {
+}
+.accordianBox {
+  margin-bottom: 20px;
+}
+.accordianHead {
+  background: rgb(164, 220, 242);
+  padding: 10px;
+  cursor: pointer;
+}
+.accordianHead h3 {
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  line-height: 140%;
+}
+.accordianContent {
+  padding: 10px;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  display: none;
+}
+
+.show{
+    display: block;
+}

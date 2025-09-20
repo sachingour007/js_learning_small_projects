@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{}
+.headings{background: gainsboro; display: flex; align-items: center; justify-content: space-between; padding: 10px 20px;}
+.headings h1{margin: 0;}
+.btnContainer{display: flex; align-items: center; gap: 10px;}
+.writeArea{height: calc(100vh - 62px);}
+.writeArea textarea{width: 100%; height:100%;  resize: none; padding: 20px; font-size: 18px; line-height: 100%; letter-spacing: 0.45px; color: #000;}
