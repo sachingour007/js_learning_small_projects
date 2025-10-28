@@ -8,8 +8,8 @@ console.log(child);
 // 	});
 // });
 
-
-parent.addEventListener("click", function(e){
-    console.log(e.target.innerHTML);
-    
-})
+parent.addEventListener("click", function (e) {
+	if (e.target.className === "child") {
+		console.log(e.target.innerHTML);
+	}
+});
